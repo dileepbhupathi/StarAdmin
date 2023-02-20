@@ -1,0 +1,97 @@
+.sales-statistic-overview-container {
+    background-color: #fff;
+    font-size: 16px;
+    padding: 1.875em 1.75em;
+    border-radius: 3px;
+    margin-bottom: 1.5625em;
+}
+
+.sale-statistics-overview-title {
+    font-size: 0.875em;
+    margin: 0;
+    font-weight: 600;
+    line-height: normal;
+    color: #343a40;
+}
+
+.sales-statistics-overview-caption {
+    margin: 0;
+    margin-bottom: 1em;
+    font-size: 0.875em;
+    color: #343a40;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.sales-statistics-overview-buttons-container {
+    border-bottom: 1px solid #ebedf2;
+    margin-bottom: 1.5em;
+}
+
+.sales-statistics-overview-button {
+    background-color: #efefef;
+    padding: 0.6em 1.2em;
+    color: #343a40;
+    border: 1px solid #efefef;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+
+.sales-statistics-overview-active-button {
+    background-color: #fff;
+    padding: 0.6em 1.2em;
+    color: #343a40;
+    border: 1px solid #efefef;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    border-bottom: 0px;
+}
+
+.cost-and-revenue-container {
+    display: flex;
+}
+
+.cost-and-value-container {
+    padding-right: 3em;
+}
+
+.title {
+    font-size: 1.0625em;
+    margin: 0;
+    color: #343a40;
+    font-weight: 400;
+}
+
+.value {
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: #343a40;
+    margin: 0;
+}
+
+.revenue-and-value-container {
+    padding-right: 3em;
+}
+
+.revenue-and-sales-indications-container {
+    padding-left: 1em;
+    margin-bottom: 1em;
+}
+
+.revenue-and-sales-indications{
+    margin: 0;
+    margin-left: 0.625em;
+    font-size: 0.875em;
+}
+
+.revenue-indication {
+    margin-right: 0.25em;
+    color: #8862e0;
+    font-size: 2.5em;
+}
+
+.sales-indication {
+    margin: 0 0.285715em;
+    color: #19d895;
+    font-size: 2.5em;
+}

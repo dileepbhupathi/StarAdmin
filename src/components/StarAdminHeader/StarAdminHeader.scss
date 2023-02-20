@@ -1,0 +1,162 @@
+.star-admin-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px 10px 11px;
+    border: 1px solid;
+    font-family: Roboto,sans-serif;
+}
+
+.star-admin-logo-container{
+    width: 10%;
+}
+
+.country-menu-container {
+    width: 10%;
+    font-family: Roboto,sans-serif;
+}
+
+.country-flags {
+    width: 100%;
+    border-radius: 50%;
+    height: 5vh;
+}
+
+.country-menu-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.5em 0.75em 0.5em 1.2em;
+    border-bottom: 1px solid gray;
+}
+
+.country-menu-last-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.5em 0.75em 0 1.2em;
+}
+
+.flags {
+    width: 12%;
+    border-radius: 50%;
+    height: 6vh;
+}
+
+.ant-popover-placement-bottom .ant-popover-arrow {
+    display: none;
+}
+
+.profile-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-family: Roboto,sans-serif;
+}
+
+.profile-pic {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.profile-pic-pop-over {
+    width: 25%;
+}
+
+.notification-container {
+    position: relative;
+    font-family: Roboto,sans-serif;
+}
+
+.notifications-icon {
+    font-size: 1.5em;
+}
+
+.notifications-count {
+    position: absolute;
+    margin: 0;
+    background-color: #19d895;
+    width: 12px;
+    height: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+    right: 0;
+    font-size: 11px;
+}
+
+.messages-container {
+    position: relative;
+    font-family: Roboto,sans-serif;
+}
+
+.messages-icon {
+    font-size: 1.5em;
+}
+
+.messages-count {
+    position: absolute;
+    margin: 0;
+    background-color: #ff6258;
+    width: 12px;
+    height: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+    right: 0;
+    font-size: 11px;
+}
+
+.ant-popover .ant-popover-inner {
+    width: 100vw;
+    padding: 0 0 1em;
+    border-radius: 0;
+}
+
+.bookmark-account-alarm-icon-container {
+    display: flex;
+    border-bottom: 1px solid lightgray;
+}
+
+.icon-container {
+    padding: 16px 24px;
+    border-left: 1px solid lightgray;
+}
+
+.icon {
+    font-size: 1.5em;
+}
+
+.manage-accounts-content {
+    margin: 0.5em 0 0;
+    padding: 0.45px 1.5em;
+    color: #343a40;
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+}
+
+.change-password-content{
+    padding: 0.45px 1.5em;
+    color: #343a40;
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+}
+
+.check-inbox-content {
+    padding: 0.45px 1.5em;
+    color: #343a40;
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+}
+
+.sign-out-content {
+    padding: 0.45px 1.5em;
+    color: #343a40;
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+}

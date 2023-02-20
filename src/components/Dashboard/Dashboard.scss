@@ -1,0 +1,55 @@
+.dashboard-header {
+    width: 100%;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #dee2e6;
+    margin-bottom: 15px;
+    font-family: Roboto,sans-serif;
+    font-size: 16px;
+}
+
+.dashboard-title {
+    margin: 0 0 0.0625em;
+}
+
+.dashboard-data-container {
+    font-size: 16px;
+    display: flex;
+    margin: 0.25em 0 0.5em;
+}
+
+.data-content {
+    padding: 0 0.625em 0 0;
+    margin: 0;
+    color: #343a40;
+    border-right: 1px solid ;
+    margin-right: 0.625em;
+    font-size: 0.875em;
+}
+
+.data-last-content {
+    padding: 0 0.625em 0 0;
+    margin: 0;
+    color: #343a40;
+    font-size: 0.875em;
+
+}
+
+.settings-analytics-watchlist-container {
+    display: flex;
+    margin-top: 0.25em;
+}
+
+.content {
+    padding: 0 0.625em 0 0;
+    border-right: 1px solid;
+    margin: 0 0.625em 0 0;
+    color: #343a40;
+    font-size: 0.875em;
+}
+
+.last-content {
+    padding: 0 0.625em 0 0;
+    margin: 0 0.625em 0 0;
+    color: #343a40;
+    font-size: 0.875em;
+}

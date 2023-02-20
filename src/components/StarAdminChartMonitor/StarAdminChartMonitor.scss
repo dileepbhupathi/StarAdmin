@@ -1,0 +1,39 @@
+.star-admin-chart-monitor-container {
+    font-size: 16px;
+    padding: 1.875em 1.75em;
+    background-color: #fff;
+    margin-bottom: 1.5625em;
+    border-radius: 3px;
+}
+
+.star-admin-chart-montor-item-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5em 0 1.5625em ;
+    padding: 0 0.78125em;
+    box-sizing: border-box;
+}
+
+.star-admn-chart-monitor-item-count {
+    margin: 0;
+    font-size: 1.6875em;
+    color: #343a40;
+}
+
+.star-admin-chart-monitor-item-name {
+    margin: 0;
+    color: #2196F3;
+    font-size: 1.0625em;
+}
+
+.star-admin-chart-monitor-item-profit {
+    margin: 0;
+    color: #6c7293;
+    font-size: 0.875em;
+}
+
+.chart-image {
+    width: 90px;
+    height: 50px;
+}

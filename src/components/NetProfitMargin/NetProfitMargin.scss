@@ -1,0 +1,56 @@
+.net-profit-margin-container {
+    background-color: #fff;
+    padding: 1.88em 1.81em;
+    border-radius: 3px;
+    margin-bottom: 1.5625em;
+    font-size: 16px
+}
+
+.net-profit-margin-title {
+    font-size: 0.875em;
+    margin: 0;
+    color: #343a40;
+    font-weight: 600;
+}
+
+.net-profit-margin-caption {
+    font-size: 0.875em;
+    margin: 0;
+    margin-bottom: 1.142855em;
+    color: #343a40;
+    font-weight: 400;
+}
+
+.sales-and-orders-indication-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.sales {
+    margin: 0;
+    margin-right: 0.714286em;
+    font-size: 0.875em;
+    color: #343a40;
+    font-weight: 500;
+}
+
+.sales-icon {
+    margin-right: 0.714286em;
+    color: #19d895;
+    font-size: 1em;
+}
+
+.orders {
+    margin: 0;
+    margin-right: 0.714286em;
+    font-size: 0.875em;
+    color: #343a40;
+    font-weight: 500;
+}
+
+.orders-icon {
+    margin-right: 0.714286em;
+    color: #8862e0;
+    font-size: 1em;
+}
