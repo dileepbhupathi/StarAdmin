@@ -16,7 +16,7 @@ export const TotalRevenueChart = () => {
   useEffect(() => {
     // setting up svg
 
-    const w = 250;
+    const w = 415;
     const h = 80;
     const svg = d3
       .select(svgRef.current)

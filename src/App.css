@@ -1,4 +1,15 @@
 .app {
   font-family: Roboto,sans-serif;
+  width: 100%;
+  display: flex;
 }
 
+.star-admin-side-nav-contaier{
+  display: none;
+}
+
+@media only screen and (min-width : 1024px) {
+  .star-admin-side-nav-contaier{
+    display: block;
+  }
+}

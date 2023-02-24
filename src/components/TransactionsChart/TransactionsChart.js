@@ -9,7 +9,7 @@ export const TransactionsChart = () => {
   useEffect(() => {
     // setting up svg
 
-    const w = 250;
+    const w = 415;
     const h = 80;
     const svg = d3
       .select(svgRef.current)
@@ -17,7 +17,7 @@ export const TransactionsChart = () => {
       .attr("height", h)
       .style("background", "#fff")
     //   .style("margin-top", "20")
-      .style("overflow", "visible");
+      .style("overflow", "hidden");
 
     //setting up scaling
 
@@ -49,8 +49,14 @@ export const TransactionsChart = () => {
       .data([data])
       .join("path")
       .attr("d", (d) => generateScaledLine(d))
-      .attr("fill", "none")
-      .attr("stroke", "#f96868");
+      .attr("fill", "#f96868")
+      .attr("stroke", "#f96868")
+      .attr("d", d3.area()
+        .x((value, index) => xScale(index))
+        .y0(yScale(0))
+        .y1((value, index) => yScale(value))
+        );
+      
 
     svg
       .selectAll(".dot")

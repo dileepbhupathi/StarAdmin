@@ -53,3 +53,27 @@
     color: #343a40;
     font-size: 0.875em;
 }
+
+@media only screen and (min-width : '768px') {
+    .dashboard-header {
+        font-size: 18px;
+    }
+    .dashboard-title {
+        font-size: 1em;
+        font-weight: 500;
+    }
+    .dashboard-data-content-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .data-content{
+        width: 190px;
+    }
+    .data-last-content {
+        padding-right: 0%;
+    }
+    .dashboard-data-container{
+        width: 60%;
+    }
+}

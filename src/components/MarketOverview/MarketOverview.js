@@ -3,6 +3,7 @@ import "./MarketOverview.scss";
 import { FaAngleDown } from "react-icons/fa";
 import { Dropdown } from "antd";
 import { MarketOverviewChart } from "../../../src/components/MarketOverViewChart/MarketOverViewChart";
+import { colors, data, keys } from "../../Constants/MarketOverViewChartData";
 
 export const MarketOverview = () => {
   const items = [
@@ -43,7 +44,7 @@ export const MarketOverview = () => {
         <p className="market-overview-value-type">USD</p>
         <p className="market-overview-profit">(+1.37%)</p>
       </div>
-      <MarketOverviewChart/>
+      <MarketOverviewChart data = {data} colors = {colors} keys = {keys}/>
     </div>
   );
 };

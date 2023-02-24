@@ -1,0 +1,65 @@
+.total-sales-and-average-users-container {
+    background-color: #fff;
+    border-radius: 3px;
+    font-size: 16px;
+    padding: 1.88em 1.81em;
+    margin-bottom: 1.5625em;
+}
+
+.total-sales-container {
+    font-size: 16px;
+}
+
+.total-sales-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #343a40;
+    font-size: 0.875em;
+    margin: 0;
+    padding-bottom: 0.5714285em;
+}
+
+.total-sales-icon {
+    color: #ff6258;
+    margin-right: 0.5714285em;
+    font-size: 1em;
+}
+
+.total-sales-value {
+    color: #343a40;
+    margin: 0;
+    margin-bottom: 0.5714285em;
+    font-size: 1.25em;
+}
+
+.average-users-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #343a40;
+    font-size: 0.875em;
+    margin: 0;
+    padding-bottom: 0.5714285em;
+}
+
+.average-users-icon {
+    color: #19d895;
+    margin-right: 0.5714285em;
+    font-size: 1em;
+}
+
+.average-users-values {
+    color: #343a40;
+    margin: 0;
+    margin-bottom: 0.5714285em;
+    font-size: 1.25em;
+}
+
+@media only screen and (min-width : 768px) {
+    .total-sales-and-average-users-container{
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+    }
+}

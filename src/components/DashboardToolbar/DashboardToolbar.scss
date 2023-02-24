@@ -74,6 +74,7 @@
 .export-content-container{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     font-size: 16px;
 }
 
@@ -101,4 +102,6 @@
     border: 1px solid #dde4eb;
     text-align: center;
     border-radius: 0.1875rem;
+    width: 50px;
 }
+

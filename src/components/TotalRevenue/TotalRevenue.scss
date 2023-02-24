@@ -41,3 +41,10 @@
     margin-top: 0.25em;
 
 }
+
+@media only screen and (min-width : '768px') {
+    .totalrevenue-content-and-chart-container {
+        width: 115%;
+        
+    }
+}

@@ -79,3 +79,9 @@
     margin-bottom: 0.285714em;
     font-weight: 600;
 }
+
+@media only screen and (min-width:768px) {
+    .Market-overview-content-chart-container{
+        width: 105%;
+    }
+}

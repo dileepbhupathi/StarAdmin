@@ -5,7 +5,7 @@ import './SalesStatisticOverViewAndNetProfitMargin.scss'
 
 export const SalesStatisticOverViewAndNetProfitMargin = () => {
   return (
-    <div>
+    <div className='sales-statistic-overview-and-net-profit-margin-container'>
         <SalesStatisticOverview/>
         <NetProfitMargin/>
     </div>

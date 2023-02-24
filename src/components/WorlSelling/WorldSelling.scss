@@ -1,0 +1,63 @@
+.world-selling-container {
+    background-color: #fff;
+    border-radius: 3px;
+    font-size: 16px;
+    padding: 1.88em 1.81em;
+    margin-bottom: 1.5625em;
+}
+
+.world-selling-title{
+    color: #343A40;
+    font-size: 0.875em;
+    margin: 0;
+    margin-bottom: 1.5em;
+    font-weight: 600;
+}
+
+.world-selling-content-container{
+    margin-top: 1.5em;
+}
+
+.world-selling-states-and-values-content-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.5em;
+}
+
+.world-selling-state {
+    color: #343A40;
+    font-size: 0.875em;
+    font-weight: 600;
+    margin: 0;
+}
+
+.world-selling-values-profit-container{
+    display: flex;
+    align-items: center;
+}
+
+.world-selling-value{
+    color: #343A40;
+    font-size: 0.875em;
+    font-weight: 600;
+    margin: 0;
+}
+
+.world-selling-profit{
+    color: #343A40;
+    font-size: 0.875em;
+    margin: 0;
+    margin-left: 0.5em;
+}
+
+.world-selling-map-container{
+    width: 100%;
+}
+
+@media only screen and (min-width:'768px') {
+    .world-selling-container{
+        width: 65%;
+        margin-left: 3.5em;
+    }
+}

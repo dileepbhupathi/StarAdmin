@@ -1,0 +1,61 @@
+.average-price-container {
+    background-color: blue;
+    border-radius: 3px;
+    font-size: 16px;
+    padding: 1.88em 1.81em;
+    margin-bottom: 1.5625em;
+    color: #fff;
+}
+
+.average-price-value-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+}
+
+.average-price-value {
+    font-size: 2em;
+    margin: 0;
+    font-weight: 600;
+}
+
+.briefcase-icon-container {
+    background-color: #2944b5;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+}
+
+.briefcase-icon {
+    font-size: 20px;
+}
+
+.average-price-content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.average-price-title {
+    font-weight: 600;
+    font-size: 1.0625em;
+    margin: 0;
+    width: 45%;
+}
+
+.average-price-content {
+    font-size: 0.875em;
+    margin: 0;
+    width: 40%;
+}
+
+@media only screen and (min-width : 768px) {
+    .average-price-container{
+        width: 50%;
+        margin-left: 1.5em;
+    }
+}

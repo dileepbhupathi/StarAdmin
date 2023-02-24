@@ -2,9 +2,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 15px 10px 11px;
-    border: 1px solid;
+    padding: 10px 20px 10px 17px;
+    // border: 1px solid;
     font-family: Roboto,sans-serif;
+    width: -webkit-fill-available;
+    position: fixed;
+    background-color: #fff;
 }
 
 .star-admin-logo-container{
@@ -17,9 +20,9 @@
 }
 
 .country-flags {
-    width: 100%;
+    width: 45px;
     border-radius: 50%;
-    height: 5vh;
+    height: 6vh;
 }
 
 .country-menu-item {
@@ -61,7 +64,7 @@
 }
 
 .profile-pic-pop-over {
-    width: 25%;
+    width: 30%;
 }
 
 .notification-container {
@@ -70,7 +73,7 @@
 }
 
 .notifications-icon {
-    font-size: 1.5em;
+    font-size: 1.75em;
 }
 
 .notifications-count {
@@ -94,7 +97,7 @@
 }
 
 .messages-icon {
-    font-size: 1.5em;
+    font-size: 1.75em;
 }
 
 .messages-count {
@@ -159,4 +162,180 @@
     color: #343a40;
     font-family: Roboto,sans-serif;
     font-weight: 400;
+}
+
+.star-admin-help-line-num-container {
+    display: none;
+}
+
+.star-admin-english {
+    display: none;
+}
+
+.star-admin-help-line-and-country-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.star-admin-hearch-serch-bar-container{
+    display: none;
+}
+
+.star-admin-header-menu-container {
+    display: none;
+}
+
+.side-navbar-menu{
+    display: none;
+}
+
+.ant-popover .ant-popover-inner {
+    width: auto;
+    padding: 0 0 1em;
+    border-radius: 0;
+}
+
+@media only screen and (min-width : '768px') {
+    .star-admin-header {
+        width: -webkit-fill-available;
+    }
+    .star-admin-help-line-num-container{
+        display: block;
+        font-size: 16px;
+        .star-admin-help-line-num{
+            font-size: 0.875em;
+            margin: 0;
+            width: inherit;
+            color: #001737;
+            font-weight: 600;
+        }
+    }
+    .country-menu-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 30%;
+        .country-flags {
+            width: 30px;
+            margin-right: 1em;
+            height: 5vh;
+        }
+        .star-admin-english{
+            display: block;
+            font-size: 0.9375em;
+            margin: 0;
+        }
+    }
+    .star-admin-logo-container{
+        width: 5%;
+    }
+    .star-admin-logo {
+        width: 70%;
+    }
+    .star-admin-hearch-serch-bar-container{
+        display: block;
+        .ant-input{
+            border-radius: 2px;
+        }
+    }
+    .star-admin-header-menu-container{
+        display: block;
+        
+    }
+    .star-admin-menu-content-container{
+        overflow-y: scroll;
+        position: absolute;
+        background-color: #5768f3;
+        top: 60px;
+        right: 0;
+        color: #fff;
+        height: 90vh;
+    }
+    .star-admin-menu-image-container{
+        padding: 0.5em 1.5em;
+    }
+    .star-admin-menu-profile-image-and-content-container {
+        padding: 0.5em 1.5em;
+    }
+    .star-admin-menu-profile-container {
+        padding: 0.5em 0 0.5em 1em;
+        position: relative;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        border: 1px solid rgb(212, 208, 208);
+        border-radius: 3px;
+    }
+    .star-admin-menu-image1 {
+        border-radius: 50%;
+        width: 20%;
+    }
+    .star-admin-menu-online-icon {
+        position: absolute;
+        color: #19d895;
+        left: 42px;
+        bottom: 45px;
+        font-size: 1.2em;
+    }
+    .star-admin-menu-profile-content-container {
+        margin-left: 0.75em;
+    }
+    .star-admin-menu-profile-title {
+        margin: 0;
+        margin-bottom: 5px;
+        font-size: 0.9375em;
+        width: inherit;
+        font-weight: 600;
+        color: #fff;
+    }
+    .star-admin-menu-profile-user-content {
+        margin: 0;
+        margin-bottom: 5px;
+        font-size: 0.875em;
+        width: inherit;
+        color: #fff;
+    }
+    .star-admin-menu-dashboard-content {
+        color: #fff;
+        font-size: 0.9375em;
+        margin: 0;
+        padding: 0.9375em 0 0.9375em 1.9em;
+        display: flex;
+        align-items: center;
+    }
+    .star-admin-menu-circle-icon {
+        margin-right: 1em;
+        font-size: 1em;
+    }
+    .star-admin-menu-content{
+        color: #fff;
+        font-size: 0.9375em;
+        margin: 0;
+        padding: 0.9375em 0 0.9375em 1.9em ;
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width : 1024px) {
+    .star-admin-header {
+        width: -webkit-fill-available;
+    }
+    .star-admin-header-menu-container{
+        display: none;
+    }
+    .side-navbar-menu{
+        display: block;
+        font-size: 1.3em;
+    }
+    .star-admin-logo-container{
+        display: none;
+    }
+    .country-menu-container {
+        .country-flags {
+            width: 30px;
+            height: 4vh;
+        }
+    }
 }

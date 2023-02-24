@@ -1,0 +1,45 @@
+.Invoice-content-and-chart-container {
+    background-color: #fff;
+    border-radius: 3px;
+    font-size: 16px;
+    padding: 1.88em 1.81em;
+    margin-bottom: 1.5625em;
+
+}
+
+.Invoice-title-and-showall-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.invoice-title {
+    color: #343a40;
+    font-size: 1em;
+    margin: 0;
+    font-weight: 600;
+}
+
+.invoice-show-all {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 0.78125em;
+    font-weight: 400;
+}
+
+.invoice-show-all:hover {
+    text-decoration: underline;
+}
+
+.invoice-context {
+    font-size: 0.875em;
+    margin: 0;
+    margin-bottom: 1.14286em;
+    font-weight: 400;
+}
+
+@media only screen and (min-width : 768px) {
+    .Invoice-content-and-chart-container{
+        width: 105%;
+    }
+}

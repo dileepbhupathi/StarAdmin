@@ -29,7 +29,7 @@ export const SalesStatisticOverview = () => {
       <div className="sales-statistics-overview-buttons-container">
         {SalesStatisticsOverviewButtonData.map((each) => (
           <button
-            id={each.id}
+            key={each.id}
             className={
               active === each.id
                 ? "sales-statistics-overview-active-button"

@@ -1,0 +1,32 @@
+.invoice-table-container {
+  overflow-x: scroll;
+}
+
+.ant-table-wrapper .ant-table-thead > tr > th {
+  background: transparent;
+  padding: 0.25em 0.2em;
+  width: 100%;
+}
+
+.ant-table-wrapper
+  .ant-table-thead
+  > tr
+  > th:not(:last-child):not(.ant-table-selection-column):not(
+    .ant-table-row-expand-icon-cell
+  ):not([colspan])::before {
+  display: none;
+}
+
+.ant-table-wrapper .ant-table-tbody >tr >td {
+    padding: 0.85714em 1.07143em;
+    color: #212529;
+}
+
+.table-row-light {
+    background-color: #ffffff;
+    font-family: Roboto,sans-serif;
+}
+.table-row-dark {
+    background-color: #fbfbfb;
+    font-family: Roboto,sans-serif;
+}

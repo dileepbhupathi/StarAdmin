@@ -1,6 +1,40 @@
 .star-admin-body-content-container{
     font-size: 16px;
-    padding: 2em 2em 0;
+    padding: 6em 2em 0;
     background-color: #f3f3f3;
-    box-sizing: border-box;
+    // box-sizing: border-box;
+    width: 93%;
+}
+
+@media only screen and (min-width : 768px) {
+    .revenues-transactions-world-selling-components {
+        display: flex;
+        justify-content: space-between;
+    }
+    .total-sales-and-average-price-components{
+        display: flex;
+        justify-content: space-between;
+        width: 115%;
+    }
+    .total-revenue-transactions-market-overview-invoices-componenets{
+        width: 75%;
+    }
+    .website-audience-world-selling-top-performer-components{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        // justify-content: flex-end;
+        align-items: flex-end;
+    }
+    .events-activities-people-watch-components-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .star-admin-body-content-container{
+        font-size: 16px;
+        padding: 6em 2em 0;
+        background-color: #f3f3f3;
+        // box-sizing: border-box;
+        width: 100%;
+    }
 }

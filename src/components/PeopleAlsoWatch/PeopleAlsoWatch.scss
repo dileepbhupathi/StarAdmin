@@ -1,0 +1,67 @@
+.people-watch-card {
+    background-color: #fff;
+    border-radius: 3px;
+    font-size: 16px;
+    padding: 1.88em 1.81em;
+    margin-bottom: 1.5625em;
+}
+.people-watch-title {
+  color: #343a40;
+  font-size: 0.875em;
+  margin: 0;
+  font-weight: bold;
+  font-family: Roboto, sans-serif;
+  text-transform: capitalize;
+}
+.company-titles,
+.price,
+.change {
+  color: #252c46 !important;
+  font-size: 1em;
+  white-space: nowrap;
+  font-weight: 700;
+  font-family: Roboto, sans-serif;
+  margin: 0;
+  margin-bottom: 0.285714em;
+}
+
+.price {
+    margin: 0;
+}
+
+.record-negative {
+  color: #ff6258;
+  font-weight: bold;
+  margin: 0;
+  width: 100%;
+}
+.record-positive {
+  color: #19d895;
+  font-weight: bold;
+    margin: 0;
+    width: 100%;
+}
+.company-websites {
+  font-family: Roboto, sans-serif;
+  color: #252c46;
+  font-size: 0.8em;
+  margin: 0;
+}
+
+.people-also-watch-show-all {
+    color: #007bff;
+    margin: 0;
+    margin-top: 3em;
+    font-size: 1em;
+}
+
+.people-watch-table-container{
+    overflow-x: scroll;
+}
+
+@media only screen and (min-width : '768px') {
+    .people-watch-card{
+        width: 26%;
+    }
+}
+
